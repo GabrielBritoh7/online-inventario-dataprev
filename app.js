@@ -6,7 +6,7 @@
   // Cole aqui a URL e a Anon Key do seu projeto Supabase:
   // ==========================================
   const SUPABASE_URL = 'https://aaqnldnahmepcpwzvamn.supabase.co/rest/v1/';
-  const SUPABASE_ANON_KEY = 'sb_publishable_CWNh0HYFwb7d1nOcFtBBRw_SW9MQ5_f';
+  const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFhcW5sZG5haG1lcGNwd3p2YW1uIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAyNDk1NDYsImV4cCI6MjEwNTgyNTU0Nn0.L6uSzYl5L-jHGhVoQXIK7MdfFpULyr1Uo4u_WzAkrPg';
 
   const isSupabaseConfigured = Boolean(window.supabase && SUPABASE_URL && SUPABASE_ANON_KEY);
   const supabase = isSupabaseConfigured ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
