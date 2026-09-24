@@ -5,8 +5,8 @@
   // CONFIGURAÇÃO DO BANCO EM NUVEM (SUPABASE)
   // Cole aqui a URL e a Anon Key do seu projeto Supabase:
   // ==========================================
-  const SUPABASE_URL = '';
-  const SUPABASE_ANON_KEY = '';
+  const SUPABASE_URL = 'https://aaqnldnahmepcpwzvamn.supabase.co/rest/v1/';
+  const SUPABASE_ANON_KEY = 'sb_publishable_CWNh0HYFwb7d1nOcFtBBRw_SW9MQ5_f';
 
   const isSupabaseConfigured = Boolean(window.supabase && SUPABASE_URL && SUPABASE_ANON_KEY);
   const supabase = isSupabaseConfigured ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
