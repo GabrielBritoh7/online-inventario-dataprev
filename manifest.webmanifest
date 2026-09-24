@@ -1,0 +1,14 @@
+{
+  "name": "Inventário TI",
+  "short_name": "Inventário",
+  "description": "Inventário de computadores com armazenamento local e exportação de planilha.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8f8",
+  "theme_color": "#092b38",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
